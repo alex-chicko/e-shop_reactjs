@@ -46,9 +46,8 @@ const Directory = () => {
             {
                 sectionState.map(section => {
                     return <Menuitem key={section.id} 
-                                     title={section.title}
-                                     imageUrl={section.imageUrl}
-                                     size={section.size}/>
+                                   {...section}
+                                     />
                 })
             }
         </div>
