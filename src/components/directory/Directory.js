@@ -5,7 +5,7 @@ import "./Directory.scss";
 const Directory = () => {
   const [sectionState, setSectionState] = useState([
     {
-      title: "hatsfefsefzf",
+      title: "hatsfefsefzfsfsfsff",
       imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
       id: 1,
       linkUrl: "shop/hats",
